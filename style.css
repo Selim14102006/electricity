@@ -1,0 +1,93 @@
+body{
+  background: linear-gradient(to left,#6ec5ff,#00c3ff);
+}
+
+
+.span{
+  font-weight:bold;
+  color:black;
+}
+.red-span{
+  color:#ff0000;
+}
+.green-span{
+  color: #00ff00;
+}
+h1{
+  text-align: center;
+}
+h2{
+  color:#2575fc;
+}
+.section1{
+  background-color: rgb(245,245,245);
+  margin:7px;
+  padding:30px;
+  border-radius:15px;
+box-shadow:-5px 5px 15px black ;
+}
+nav{
+  background-color: #2575fc;
+  border-radius: 20px;
+  margin: auto;
+  padding:20px;
+  box-shadow: -5px 5px 15px black ;
+}
+.navbutton{
+  width: 90px;
+  height: 40px;
+  background-color: rgb(245,245,245);
+  color: #2575fc;
+  border-radius: 20px;
+  box-shadow:inset -3px 3px 8px #333333 ;
+}
+.navbutton:hover{
+  background-color: #333333;
+box-shadow:inset 3px -3px 13px #2575fc;
+}
+form{
+  background-color: rgb(245,245,245);
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius:3px;
+    box-shadow: -2px 2px 3px black ;
+}
+#password,#email,#username{
+  width: 300px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #ccc;
+  color: #2575fc;
+}
+.submit-button {
+  width: 120px;
+  height: 40px;
+  color: #2575fc;
+  font-weight: bold;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.submit-button:hover {
+  background-color: #2575fc;
+  color: #ccc;
+}
+footer {
+  background-color: #2575fc;
+  border-radius: 20px;
+
+  padding:20px;
+  box-shadow: -5px 5px 15px black ;
+}
+button{
+  cursor: pointer;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
